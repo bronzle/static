@@ -5,4 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/static/',
   plugins: [react()],
+
+  build: {
+    sourcemap: 'inline'
+  }
 })
